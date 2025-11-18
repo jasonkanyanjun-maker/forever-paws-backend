@@ -2,7 +2,10 @@ services:
   - type: web
     name: forever-paws-backend
     env: node
-    buildCommand: cd api && npm install --include=dev && npm run build
+    buildCommand: |
+      cd api
+      npm install --include=dev
+      npm run build:render
     startCommand: cd api && npm start
     envVars:
       - key: NODE_ENV
