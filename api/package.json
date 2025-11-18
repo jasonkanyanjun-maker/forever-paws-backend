@@ -11,7 +11,7 @@
     "test": "jest",
     "lint": "eslint src/**/*.ts",
     "migrate": "npm run build && node scripts/migrate-database.js migrate",
-    "postinstall": "npm run build",
+
     "health-check": "node scripts/health-check.js check",
     "deploy-check": "node scripts/pre-deploy-check.js",
     "production-check": "node scripts/production-deploy-check.js",
