@@ -4,8 +4,8 @@ services:
     env: node
     buildCommand: |
       if [ -d api ]; then cd api; fi
-      npm install
-      npm run build
+      npm install --include=dev
+      npm run build:render
     startCommand: |
       if [ -d api ]; then cd api; fi
       npm start
