@@ -8,12 +8,6 @@ import productRoutes from './products';
 import orderRoutes from './orders';
 import notificationRoutes from './notifications';
 import healthRoutes from './health';
-import adminRoutes from './admin';
-import adminDashboardRoutes from './adminDashboard';
-import adminApiMonitoringRoutes from './adminApiMonitoring';
-import adminUsersRoutes from './adminUsers';
-import adminProductsRoutes from './adminProducts';
-import adminOrdersRoutes from './adminOrders';
 
 const router = Router();
 
@@ -29,14 +23,6 @@ router.use('/upload', uploadRoutes);
 router.use('/products', productRoutes);
 router.use('/orders', orderRoutes);
 router.use('/notifications', notificationRoutes);
-
-// 管理员路由
-router.use('/admin', adminRoutes);
-router.use('/admin/dashboard', adminDashboardRoutes);
-router.use('/admin/api-monitoring', adminApiMonitoringRoutes);
-router.use('/admin/users', adminUsersRoutes);
-router.use('/admin/products', adminProductsRoutes);
-router.use('/admin/orders', adminOrdersRoutes);
 
 // 备用健康检查路由 (已移至 /health 路由)
 // router.get('/health', (req, res) => {

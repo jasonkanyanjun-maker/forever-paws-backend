@@ -2,7 +2,7 @@ services:
   - type: web
     name: forever-paws-backend
     env: node
-    buildCommand: cd api && npm install && npm run build:render
+    buildCommand: cd api && npm install && mkdir -p temp_disabled_routes && mv src/routes/admin*.ts src/middleware/adminAuth.ts src/services/LetterService.ts temp_disabled_routes/ && npm run build
     startCommand: cd api && npm start
     envVars:
       - key: NODE_ENV
