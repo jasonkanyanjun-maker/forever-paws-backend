@@ -1,0 +1,136 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/VideoHistoryView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Delete Video",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 108
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "Are you sure you want to delete this video? This action cannot be undone.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "Manage your pet memorial holographic videos",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 156
+        }
+      },
+      {
+        "comment": "",
+        "key": "Holographic Videos",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld videos",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 131
+        }
+      },
+      {
+        "comment": "",
+        "key": "Search videos or pets...",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 175
+        }
+      },
+      {
+        "comment": "",
+        "key": "Layout",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 220
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Videos Yet",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 323
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create your first holographic memorial video for your beloved pet",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 328
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create Video",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 342
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pet: %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 569
+        }
+      },
+      {
+        "comment": "",
+        "key": "Download",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 594
+        }
+      },
+      {
+        "comment": "",
+        "key": "Share",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 600
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 27,
+          "startingLine": 607
+        }
+      }
+    ]
+  },
+  "version": 1
+}

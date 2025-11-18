@@ -1,0 +1,296 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/PersonalCenterView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Logout",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 188
+        }
+      },
+      {
+        "comment": "",
+        "key": "Personal Center",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "No pets available",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "No pets available",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 108
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 189
+        }
+      },
+      {
+        "comment": "",
+        "key": "Logout",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 190
+        }
+      },
+      {
+        "comment": "",
+        "key": "Are you sure you want to logout?",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 209
+        }
+      },
+      {
+        "comment": "",
+        "key": "My Pets",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 366
+        }
+      },
+      {
+        "comment": "",
+        "key": "View All",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 374
+        }
+      },
+      {
+        "comment": "",
+        "key": "No pets added yet",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 392
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Your First Pet",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 397
+        }
+      },
+      {
+        "comment": "",
+        "key": "More",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 430
+        }
+      },
+      {
+        "comment": "",
+        "key": "Functions",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 448
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings & Support",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 507
+        }
+      },
+      {
+        "comment": "",
+        "key": "Replace with\nyour pet's photo",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 639
+        }
+      },
+      {
+        "comment": "",
+        "key": "In Memory",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 742
+        }
+      },
+      {
+        "comment": "",
+        "key": "Edit",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 757
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 773
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete Pet",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 993
+        }
+      },
+      {
+        "comment": "",
+        "key": "My Pets",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 970
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Pets Yet",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 915
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add your first pet to get started with Forever Paws",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 920
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Your First Pet",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 929
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 974
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 994
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 995
+        }
+      },
+      {
+        "comment": "",
+        "key": "Are you sure you want to delete %@? This action cannot be undone.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1002
+        }
+      },
+      {
+        "comment": "",
+        "key": "Payment History",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1024
+        }
+      },
+      {
+        "comment": "",
+        "key": "Payment history feature coming soon!",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1020
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 1028
+        }
+      },
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1155
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 1159
+        }
+      },
+      {
+        "comment": "",
+        "key": "",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 1272
+        }
+      },
+      {
+        "comment": "",
+        "key": "Help & Support",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 1292
+        }
+      },
+      {
+        "comment": "",
+        "key": "Support feature coming soon!",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 1288
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 1296
+        }
+      }
+    ]
+  },
+  "version": 1
+}

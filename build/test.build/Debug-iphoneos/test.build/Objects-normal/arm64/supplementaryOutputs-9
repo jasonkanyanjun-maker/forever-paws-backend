@@ -1,0 +1,51 @@
+{
+  "/Users/junlish/Desktop/test/test/Views/NewSupportTicketView.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NewSupportTicketView.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NewSupportTicketView.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NewSupportTicketView.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NewSupportTicketView.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NewSupportTicketView.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Views/NotificationSettingsView.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NotificationSettingsView.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NotificationSettingsView.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NotificationSettingsView.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NotificationSettingsView.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NotificationSettingsView.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Views/NotificationView.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NotificationView.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NotificationView.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NotificationView.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NotificationView.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/NotificationView.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Views/OrderTrackingDetailView.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/OrderTrackingDetailView.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/OrderTrackingDetailView.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/OrderTrackingDetailView.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/OrderTrackingDetailView.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/OrderTrackingDetailView.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Views/OrderTrackingView.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/OrderTrackingView.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/OrderTrackingView.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/OrderTrackingView.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/OrderTrackingView.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/OrderTrackingView.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Views/PersonalCenterView.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PersonalCenterView.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PersonalCenterView.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PersonalCenterView.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PersonalCenterView.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PersonalCenterView.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Views/PetPhotoManagementView.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PetPhotoManagementView.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PetPhotoManagementView.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PetPhotoManagementView.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PetPhotoManagementView.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PetPhotoManagementView.swiftdeps"
+  }
+}

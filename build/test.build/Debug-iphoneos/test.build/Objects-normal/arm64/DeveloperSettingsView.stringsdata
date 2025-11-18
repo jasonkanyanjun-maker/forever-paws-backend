@@ -1,0 +1,144 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/DeveloperSettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "开发者设置",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 106
+        }
+      },
+      {
+        "comment": "",
+        "key": "提示",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "API 配置",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "连接测试",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "环境信息",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 81
+        }
+      },
+      {
+        "comment": "",
+        "key": "开发选项",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 96
+        }
+      },
+      {
+        "comment": "",
+        "key": "当前 API URL",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "自定义 API URL",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 28
+        }
+      },
+      {
+        "comment": "",
+        "key": "输入自定义 API URL",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "设置自定义 URL",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "重置为默认",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 45
+        }
+      },
+      {
+        "comment": "",
+        "key": "测试连接",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 64
+        }
+      },
+      {
+        "comment": "",
+        "key": "连接状态",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 55
+        }
+      },
+      {
+        "comment": "",
+        "key": "正在测试连接...",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 74
+        }
+      },
+      {
+        "comment": "",
+        "key": "使用 %@",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 98
+        }
+      },
+      {
+        "comment": "",
+        "key": "完成",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "确定",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 116
+        }
+      }
+    ]
+  },
+  "version": 1
+}

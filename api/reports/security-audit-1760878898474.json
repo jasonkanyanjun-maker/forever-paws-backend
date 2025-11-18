@@ -1,0 +1,175 @@
+{
+  "timestamp": "2025-10-19T13:01:38.474Z",
+  "summary": {
+    "total": 20,
+    "passed": 15,
+    "failed": 0,
+    "warnings": 4,
+    "critical": 1
+  },
+  "checks": [
+    {
+      "name": ".env 敏感信息检查",
+      "passed": false,
+      "message": "发现可能的明文敏感信息",
+      "severity": "warning",
+      "timestamp": "2025-10-19T13:01:38.466Z"
+    },
+    {
+      "name": ".env 文件权限",
+      "passed": true,
+      "message": "",
+      "severity": "warning",
+      "timestamp": "2025-10-19T13:01:38.466Z"
+    },
+    {
+      "name": ".env.production 敏感信息检查",
+      "passed": false,
+      "message": "发现可能的明文敏感信息",
+      "severity": "warning",
+      "timestamp": "2025-10-19T13:01:38.466Z"
+    },
+    {
+      "name": ".env.production 文件权限",
+      "passed": true,
+      "message": "",
+      "severity": "warning",
+      "timestamp": "2025-10-19T13:01:38.466Z"
+    },
+    {
+      "name": ".env 文件 Git 忽略",
+      "passed": true,
+      "message": "",
+      "severity": "critical",
+      "timestamp": "2025-10-19T13:01:38.467Z"
+    },
+    {
+      "name": "已知漏洞依赖检查",
+      "passed": true,
+      "message": "",
+      "severity": "critical",
+      "timestamp": "2025-10-19T13:01:38.467Z"
+    },
+    {
+      "name": "依赖版本固定",
+      "passed": true,
+      "message": "",
+      "severity": "warning",
+      "timestamp": "2025-10-19T13:01:38.467Z"
+    },
+    {
+      "name": "生产环境 console.log",
+      "passed": false,
+      "message": "代码中存在 console.log 语句",
+      "severity": "warning",
+      "timestamp": "2025-10-19T13:01:38.473Z"
+    },
+    {
+      "name": "eval() 使用检查",
+      "passed": true,
+      "message": "",
+      "severity": "critical",
+      "timestamp": "2025-10-19T13:01:38.473Z"
+    },
+    {
+      "name": "硬编码密钥检查",
+      "passed": true,
+      "message": "",
+      "severity": "critical",
+      "timestamp": "2025-10-19T13:01:38.473Z"
+    },
+    {
+      "name": "API 速率限制",
+      "passed": false,
+      "message": "未发现速率限制配置",
+      "severity": "warning",
+      "timestamp": "2025-10-19T13:01:38.473Z"
+    },
+    {
+      "name": "API 输入验证",
+      "passed": true,
+      "message": "",
+      "severity": "critical",
+      "timestamp": "2025-10-19T13:01:38.473Z"
+    },
+    {
+      "name": "API 认证机制",
+      "passed": true,
+      "message": "",
+      "severity": "critical",
+      "timestamp": "2025-10-19T13:01:38.473Z"
+    },
+    {
+      "name": "API 错误处理",
+      "passed": true,
+      "message": "",
+      "severity": "warning",
+      "timestamp": "2025-10-19T13:01:38.473Z"
+    },
+    {
+      "name": "数据库 RLS 策略",
+      "passed": true,
+      "message": "",
+      "severity": "critical",
+      "timestamp": "2025-10-19T13:01:38.474Z"
+    },
+    {
+      "name": "数据库权限配置",
+      "passed": false,
+      "message": "未发现适当的权限配置",
+      "severity": "critical",
+      "timestamp": "2025-10-19T13:01:38.474Z"
+    },
+    {
+      "name": "数据库索引优化",
+      "passed": true,
+      "message": "",
+      "severity": "warning",
+      "timestamp": "2025-10-19T13:01:38.474Z"
+    },
+    {
+      "name": "Railway 健康检查配置",
+      "passed": true,
+      "message": "",
+      "severity": "warning",
+      "timestamp": "2025-10-19T13:01:38.474Z"
+    },
+    {
+      "name": "Railway 构建配置",
+      "passed": true,
+      "message": "",
+      "severity": "warning",
+      "timestamp": "2025-10-19T13:01:38.474Z"
+    },
+    {
+      "name": "package.json 安全脚本",
+      "passed": "npm audit && npm run security-audit",
+      "message": "",
+      "severity": "warning",
+      "timestamp": "2025-10-19T13:01:38.474Z"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "critical",
+      "message": "立即修复关键安全问题，不建议部署到生产环境"
+    },
+    {
+      "priority": "medium",
+      "message": "处理安全警告，提高系统安全性"
+    },
+    {
+      "priority": "medium",
+      "message": "定期更新依赖包，修复已知漏洞"
+    },
+    {
+      "priority": "medium",
+      "message": "实施定期安全审计和渗透测试"
+    },
+    {
+      "priority": "low",
+      "message": "配置安全监控和告警系统"
+    }
+  ],
+  "riskLevel": "CRITICAL"
+}

@@ -1,0 +1,16 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/SimpleVideoPlayerView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "No sample video found",
+        "location": {
+          "startingColumn": 1,
+          "startingLine": 90
+        }
+      }
+    ]
+  },
+  "version": 1
+}

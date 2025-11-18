@@ -1,0 +1,248 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/LetterWritingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Letters",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 238
+        }
+      },
+      {
+        "comment": "",
+        "key": "Letter Status",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 250
+        }
+      },
+      {
+        "comment": "",
+        "key": "Write a Letter to Your Pet",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 38
+        }
+      },
+      {
+        "comment": "",
+        "key": "Express your love and memories",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select Pet",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "No pets registered yet",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 63
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Pet",
+        "location": {
+          "startingColumn": 44,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "Letter Content",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 97
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 105
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 126
+        }
+      },
+      {
+        "comment": "",
+        "key": "Writing Tips:",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 136
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Share your favorite memories together",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 142
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Express your feelings and emotions",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 143
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Talk about what you miss most",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 144
+        }
+      },
+      {
+        "comment": "",
+        "key": "• Share your hopes and wishes",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reply from %@",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 161
+        }
+      },
+      {
+        "comment": "",
+        "key": "Getting Reply...",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 191
+        }
+      },
+      {
+        "comment": "",
+        "key": "Send Letter & Get Reply",
+        "location": {
+          "startingColumn": 87,
+          "startingLine": 191
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Letter",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 210
+        }
+      },
+      {
+        "comment": "",
+        "key": "Share Letter",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 223
+        }
+      },
+      {
+        "comment": "",
+        "key": "Back",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 242
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 251
+        }
+      },
+      {
+        "comment": "",
+        "key": "Select Pet",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 431
+        }
+      },
+      {
+        "comment": "",
+        "key": "Write a Letter",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 458
+        }
+      },
+      {
+        "comment": "",
+        "key": "Letter History",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 485
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld letters",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 493
+        }
+      },
+      {
+        "comment": "",
+        "key": "No letters yet",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 505
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start writing your first letter to %@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 509
+        }
+      },
+      {
+        "comment": "",
+        "key": "Letter to %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 597
+        }
+      },
+      {
+        "comment": "",
+        "key": "Read Full Letter",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 618
+        }
+      }
+    ]
+  },
+  "version": 1
+}

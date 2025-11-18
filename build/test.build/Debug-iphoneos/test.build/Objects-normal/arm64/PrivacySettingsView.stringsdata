@@ -1,0 +1,104 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/PrivacySettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Privacy Settings",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 42
+        }
+      },
+      {
+        "comment": "",
+        "key": "Data Collection",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "Advertising",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Privacy Actions",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Allow Data Collection",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 15
+        }
+      },
+      {
+        "comment": "",
+        "key": "Analytics",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 16
+        }
+      },
+      {
+        "comment": "",
+        "key": "Crash Reporting",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "Personalized Ads",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 21
+        }
+      },
+      {
+        "comment": "",
+        "key": "View Privacy Policy",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 25
+        }
+      },
+      {
+        "comment": "",
+        "key": "Request Data Export",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 31
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete My Data",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 46
+        }
+      }
+    ]
+  },
+  "version": 1
+}

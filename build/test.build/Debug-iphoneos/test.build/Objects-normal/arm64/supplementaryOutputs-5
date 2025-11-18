@@ -1,0 +1,51 @@
+{
+  "/Users/junlish/Desktop/test/test/Services/UserProfileService.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/UserProfileService.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/UserProfileService.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/UserProfileService.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/UserProfileService.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/UserProfileService.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Services/VideoTemplateService.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoTemplateService.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoTemplateService.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoTemplateService.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoTemplateService.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoTemplateService.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Utils/AsyncImageCache.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/AsyncImageCache.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/AsyncImageCache.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/AsyncImageCache.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/AsyncImageCache.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/AsyncImageCache.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Views/Components/ImagePicker.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/ImagePicker.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/ImagePicker.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/ImagePicker.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/ImagePicker.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/ImagePicker.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Views/Components/PaymentSheet.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PaymentSheet.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PaymentSheet.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PaymentSheet.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PaymentSheet.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/PaymentSheet.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Views/Components/RedeemCodeSheet.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/RedeemCodeSheet.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/RedeemCodeSheet.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/RedeemCodeSheet.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/RedeemCodeSheet.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/RedeemCodeSheet.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Views/Components/VideoCreditsCard.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoCreditsCard.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoCreditsCard.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoCreditsCard.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoCreditsCard.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoCreditsCard.swiftdeps"
+  }
+}

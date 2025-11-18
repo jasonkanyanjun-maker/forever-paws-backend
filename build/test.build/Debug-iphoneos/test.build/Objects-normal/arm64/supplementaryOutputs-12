@@ -1,0 +1,51 @@
+{
+  "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/ContentView.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/ContentView.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/ContentView.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Item.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/Item.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/Item.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/Item.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/Item.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/Item.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Views/VideoPlayerView.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoPlayerView.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoPlayerView.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoPlayerView.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoPlayerView.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoPlayerView.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Views/VideoTemplateSelectionView.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoTemplateSelectionView.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoTemplateSelectionView.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoTemplateSelectionView.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoTemplateSelectionView.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoTemplateSelectionView.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/Views/VideoUploadView.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoUploadView.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoUploadView.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoUploadView.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoUploadView.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/VideoUploadView.swiftdeps"
+  },
+  "/Users/junlish/Desktop/test/test/testApp.swift" : {
+    "const-values" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/testApp.swiftconstvalues",
+    "dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/testApp.d",
+    "diagnostics" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/testApp.dia",
+    "object" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/testApp.o",
+    "swift-dependencies" : "/Users/junlish/Desktop/test/build/test.build/Debug-iphoneos/test.build/Objects-normal/arm64/testApp.swiftdeps"
+  }
+}

@@ -1,0 +1,1406 @@
+{
+  "timestamp": "2025-10-19T12:58:44.523Z",
+  "analysis": {
+    "dependencies": {
+      "totalDependencies": 17,
+      "totalDevDependencies": 20,
+      "heavyDependencies": [
+        {
+          "name": "axios",
+          "suggestion": "native fetch API or ky (lighter alternative)"
+        },
+        {
+          "name": "express",
+          "suggestion": "fastify (better performance) or koa (lighter)"
+        }
+      ],
+      "unusedDependencies": [],
+      "outdatedDependencies": []
+    },
+    "codeStructure": {
+      "totalFiles": 53,
+      "largeFiles": [
+        {
+          "file": "src/routes/auth.ts",
+          "lines": 623,
+          "suggestion": "Consider splitting into smaller modules"
+        },
+        {
+          "file": "src/routes/letters.ts",
+          "lines": 646,
+          "suggestion": "Consider splitting into smaller modules"
+        },
+        {
+          "file": "src/routes/pets.ts",
+          "lines": 728,
+          "suggestion": "Consider splitting into smaller modules"
+        },
+        {
+          "file": "src/routes/videos.ts",
+          "lines": 556,
+          "suggestion": "Consider splitting into smaller modules"
+        },
+        {
+          "file": "src/types/database.ts",
+          "lines": 585,
+          "suggestion": "Consider splitting into smaller modules"
+        }
+      ],
+      "duplicateCode": [],
+      "complexFunctions": []
+    },
+    "database": {
+      "queries": [
+        {
+          "file": "dist/middleware/auth.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "dist/services/ProductService.js",
+          "issue": "Using SELECT *",
+          "suggestion": "Specify only needed columns"
+        },
+        {
+          "file": "dist/services/ProductService.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "dist/services/VideoGenerationService.js",
+          "issue": "Using SELECT *",
+          "suggestion": "Specify only needed columns"
+        },
+        {
+          "file": "dist/services/VideoGenerationService.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "dist/services/FamilyService.js",
+          "issue": "Using SELECT *",
+          "suggestion": "Specify only needed columns"
+        },
+        {
+          "file": "dist/services/FamilyService.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "dist/services/OrderService.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "dist/services/LetterService.js",
+          "issue": "Using SELECT *",
+          "suggestion": "Specify only needed columns"
+        },
+        {
+          "file": "dist/services/LetterService.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "dist/services/AuthService.js",
+          "issue": "Using SELECT *",
+          "suggestion": "Specify only needed columns"
+        },
+        {
+          "file": "dist/services/AuthService.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "dist/services/NotificationService.js",
+          "issue": "Using SELECT *",
+          "suggestion": "Specify only needed columns"
+        },
+        {
+          "file": "dist/services/NotificationService.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "dist/services/PetService.js",
+          "issue": "Using SELECT *",
+          "suggestion": "Specify only needed columns"
+        },
+        {
+          "file": "dist/services/PetService.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-runtime/build/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jws/lib/sign-stream.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jws/lib/verify-stream.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jws/lib/data-stream.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jsesc/jsesc.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@types/node/string_decoder.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@types/node/crypto.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@types/node/buffer.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@types/node/buffer.buffer.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@types/node/test.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@types/node/http2.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@types/node/stream.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@types/node/fs.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@types/node/dgram.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@types/node/zlib.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@types/node/util.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@types/node/ts5.6/buffer.buffer.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@types/node/fs/promises.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/istanbul-lib-source-maps/lib/map-store.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jwa/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-worker/build/workers/ChildProcessWorker.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/istanbul-reports/lib/html-spa/assets/bundle.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/content-disposition/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@jest/test-sequencer/build/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@jest/test-sequencer/build/index.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@jest/core/build/runJest.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@jest/core/build/collectHandles.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@jest/core/build/SearchSource.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@jest/core/build/TestScheduler.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@jest/fake-timers/build/modernFakeTimers.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@jest/fake-timers/build/legacyFakeTimers.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@jest/reporters/build/CoverageReporter.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/dotenv/lib/main.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/validator.min.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/validator.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/lib/isTaxID.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/lib/isURL.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/lib/isStrongPassword.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/lib/isMailtoURI.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/lib/isIdentityCard.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/lib/isDate.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/es/lib/isTaxID.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/es/lib/isURL.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/es/lib/isStrongPassword.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/es/lib/isMailtoURI.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/es/lib/isIdentityCard.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/validator/es/lib/isDate.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@scarf/scarf/report.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/joi/lib/types/binary.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/joi/lib/validator.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/joi/lib/manifest.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/joi/lib/values.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@eslint/eslintrc/lib/config-array/config-array.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/cjs-module-lexer/dist/lexer.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/express/lib/response.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/express/lib/utils.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/basic-auth/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/gensync/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@apidevtools/json-schema-ref-parser/lib/parsers/binary.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@apidevtools/json-schema-ref-parser/lib/resolvers/http.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-circus/build/utils.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/ignore/legacy.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/ts-jest/dist/legacy/compiler/compiler-utils.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/ts-jest/dist/legacy/compiler/ts-compiler.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/argparse/argparse.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/pure-rand/lib/esm/generator/MersenneTwister.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/pure-rand/lib/generator/MersenneTwister.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/source-map-support/browser-source-map-support.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/typescript/lib/typescript.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/typescript/lib/_tsc.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/typescript/lib/_tsserver.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/typescript/lib/lib.esnext.float16.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/typescript/lib/lib.es2023.array.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jsonwebtoken/sign.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jsonwebtoken/verify.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/iconv-lite/encodings/internal.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/iconv-lite/encodings/utf7.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/iconv-lite/encodings/sbcs-codec.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/iconv-lite/encodings/utf16.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/iconv-lite/lib/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@typescript-eslint/typescript-estree/dist/getModifiers.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@typescript-eslint/typescript-estree/dist/parseSettings/resolveProjectList.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@typescript-eslint/utils/dist/eslint-utils/deepMerge.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@typescript-eslint/scope-manager/dist/ScopeManager.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@typescript-eslint/eslint-plugin/dist/rules/padding-line-between-statements.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@typescript-eslint/eslint-plugin/dist/rules/prefer-readonly.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@typescript-eslint/eslint-plugin/dist/rules/unified-signatures.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@typescript-eslint/eslint-plugin/dist/rules/member-ordering.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/qs/test/stringify.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/qs/test/parse.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/qs/test/utils.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/eslint-visitor-keys/lib/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/ts-node/dist/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/ts-node/dist/file-extensions.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/ts-node/dist/child/argv-payload.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@cspotcode/source-map-support/browser-source-map-support.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@cspotcode/source-map-support/source-map-support.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/safer-buffer/tests.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-resolve/build/nodeModulesPaths.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/diff/dist/diff.min.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/diff/dist/diff.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/diff/lib/patch/merge.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/diff/lib/patch/create.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/diff/lib/index.es6.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-watcher/build/constants.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/logform/dist/splat.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/logform/dist/pad-levels.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/winston-transport/node_modules/readable-stream/lib/_stream_readable.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-runner/build/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/json-buffer/test/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/json-buffer/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/ecdsa-sig-formatter/src/ecdsa-sig-formatter.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/swagger-ui-dist/swagger-ui.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/swagger-ui-dist/swagger-ui-es-bundle-core.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/swagger-ui-dist/swagger-ui-bundle.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/swagger-ui-dist/swagger-ui-standalone-preset.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/swagger-ui-dist/swagger-ui-es-bundle.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-haste-map/build/crawlers/watchman.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-haste-map/build/crawlers/node.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-haste-map/build/worker.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-haste-map/build/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-haste-map/build/ModuleMap.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-haste-map/build/HasteFS.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/z-schema/dist/ZSchema-browser-min.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/z-schema/dist/ZSchema-browser.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/z-schema/dist/ZSchema-browser-test.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/z-schema/node_modules/commander/lib/suggestSimilar.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@sinclair/typebox/value/cast.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@sinclair/typebox/value/create.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@sinclair/typebox/value/hash.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@babel/types/lib/utils/inherit.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@babel/types/lib/modifications/typescript/removeTypeDuplicates.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@babel/types/lib/modifications/flow/removeTypeDuplicates.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@babel/core/lib/config/config-chain.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@babel/template/lib/literal.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@babel/helper-module-transforms/lib/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@babel/parser/lib/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@babel/generator/lib/generators/types.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@babel/helper-module-imports/lib/import-injector.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@babel/helpers/lib/helpers-generated.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@babel/helpers/lib/helpers/iterableToArray.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@babel/helpers/lib/helpers/unsupportedIterableToArray.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@babel/helpers/lib/helpers/applyDecs.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/compression/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/auth-js/dist/module/GoTrueClient.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/auth-js/dist/module/lib/web3/ethereum.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/auth-js/dist/module/lib/helpers.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/auth-js/dist/main/GoTrueClient.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/auth-js/dist/main/lib/web3/ethereum.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/auth-js/dist/main/lib/helpers.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/auth-js/src/lib/helpers.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/auth-js/src/lib/web3/ethereum.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/auth-js/src/GoTrueClient.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/supabase-js/dist/umd/supabase.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/supabase-js/dist/module/SupabaseClient.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/supabase-js/src/SupabaseClient.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/node-fetch/lib/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/node-fetch/lib/index.es.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/storage-js/dist/umd/supabase.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/storage-js/dist/module/packages/StorageFileApi.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/storage-js/dist/main/packages/StorageFileApi.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/storage-js/src/packages/StorageFileApi.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/postgrest-js/dist/cjs/PostgrestBuilder.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/postgrest-js/dist/cjs/PostgrestBuilder.d.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/postgrest-js/dist/cjs/PostgrestFilterBuilder.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/postgrest-js/src/PostgrestFilterBuilder.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/@supabase/postgrest-js/src/PostgrestBuilder.ts",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/convert-source-map/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/uri-js/dist/es5/uri.all.min.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/uri-js/dist/es5/uri.all.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/prompts/dist/util/clear.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/prompts/dist/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/form-data/lib/form_data.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/yaml/dist/Document-f89a2614.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/yaml/dist/Schema-807430ba.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/yaml/browser/dist/Schema-ea978338.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/yaml/browser/dist/index.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/yaml/browser/dist/errors-2634d01a.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-snapshot/build/State.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-snapshot/build/utils.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-validate/build/validateCLIOptions.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        },
+        {
+          "file": "node_modules/jest-validate/build/errors.js",
+          "issue": "Query without LIMIT",
+          "suggestion": "Add pagination or limit results"
+        }
+      ],
+      "recommendations": []
+    },
+    "api": {
+      "routes": [
+        {
+          "file": "auth.ts",
+          "issue": "Missing error handling",
+          "suggestion": "Add try-catch blocks for better error handling"
+        },
+        {
+          "file": "health.ts",
+          "issue": "Missing input validation",
+          "suggestion": "Add input validation middleware"
+        },
+        {
+          "file": "index.ts",
+          "issue": "Missing error handling",
+          "suggestion": "Add try-catch blocks for better error handling"
+        },
+        {
+          "file": "index.ts",
+          "issue": "Missing input validation",
+          "suggestion": "Add input validation middleware"
+        },
+        {
+          "file": "letters.ts",
+          "issue": "Missing error handling",
+          "suggestion": "Add try-catch blocks for better error handling"
+        },
+        {
+          "file": "notifications.ts",
+          "issue": "Missing error handling",
+          "suggestion": "Add try-catch blocks for better error handling"
+        },
+        {
+          "file": "orders.ts",
+          "issue": "Missing error handling",
+          "suggestion": "Add try-catch blocks for better error handling"
+        },
+        {
+          "file": "pets.ts",
+          "issue": "Missing error handling",
+          "suggestion": "Add try-catch blocks for better error handling"
+        },
+        {
+          "file": "products.ts",
+          "issue": "Missing error handling",
+          "suggestion": "Add try-catch blocks for better error handling"
+        },
+        {
+          "file": "upload.ts",
+          "issue": "Missing input validation",
+          "suggestion": "Add input validation middleware"
+        }
+      ],
+      "middlewares": [],
+      "recommendations": []
+    }
+  },
+  "optimizations": [
+    {
+      "category": "Dependencies",
+      "priority": "high",
+      "title": "优化重型依赖",
+      "description": "替换或优化重型依赖包以减少 bundle 大小",
+      "actions": [
+        "考虑将 axios 替换为 native fetch API or ky (lighter alternative)",
+        "考虑将 express 替换为 fastify (better performance) or koa (lighter)"
+      ]
+    },
+    {
+      "category": "Code Structure",
+      "priority": "medium",
+      "title": "拆分大文件",
+      "description": "将大文件拆分为更小的模块以提高可维护性",
+      "actions": [
+        "拆分 src/routes/auth.ts (623 行)",
+        "拆分 src/routes/letters.ts (646 行)",
+        "拆分 src/routes/pets.ts (728 行)",
+        "拆分 src/routes/videos.ts (556 行)",
+        "拆分 src/types/database.ts (585 行)"
+      ]
+    },
+    {
+      "category": "Database",
+      "priority": "high",
+      "title": "优化数据库查询",
+      "description": "改进数据库查询性能和效率",
+      "actions": [
+        "dist/middleware/auth.js: Add pagination or limit results",
+        "dist/services/ProductService.js: Specify only needed columns",
+        "dist/services/ProductService.js: Add pagination or limit results",
+        "dist/services/VideoGenerationService.js: Specify only needed columns",
+        "dist/services/VideoGenerationService.js: Add pagination or limit results",
+        "dist/services/FamilyService.js: Specify only needed columns",
+        "dist/services/FamilyService.js: Add pagination or limit results",
+        "dist/services/OrderService.js: Add pagination or limit results",
+        "dist/services/LetterService.js: Specify only needed columns",
+        "dist/services/LetterService.js: Add pagination or limit results",
+        "dist/services/AuthService.js: Specify only needed columns",
+        "dist/services/AuthService.js: Add pagination or limit results",
+        "dist/services/NotificationService.js: Specify only needed columns",
+        "dist/services/NotificationService.js: Add pagination or limit results",
+        "dist/services/PetService.js: Specify only needed columns",
+        "dist/services/PetService.js: Add pagination or limit results",
+        "node_modules/jest-runtime/build/index.js: Add pagination or limit results",
+        "node_modules/jws/lib/sign-stream.js: Add pagination or limit results",
+        "node_modules/jws/lib/verify-stream.js: Add pagination or limit results",
+        "node_modules/jws/lib/data-stream.js: Add pagination or limit results",
+        "node_modules/jsesc/jsesc.js: Add pagination or limit results",
+        "node_modules/@types/node/string_decoder.d.ts: Add pagination or limit results",
+        "node_modules/@types/node/crypto.d.ts: Add pagination or limit results",
+        "node_modules/@types/node/buffer.d.ts: Add pagination or limit results",
+        "node_modules/@types/node/buffer.buffer.d.ts: Add pagination or limit results",
+        "node_modules/@types/node/test.d.ts: Add pagination or limit results",
+        "node_modules/@types/node/http2.d.ts: Add pagination or limit results",
+        "node_modules/@types/node/stream.d.ts: Add pagination or limit results",
+        "node_modules/@types/node/fs.d.ts: Add pagination or limit results",
+        "node_modules/@types/node/dgram.d.ts: Add pagination or limit results",
+        "node_modules/@types/node/zlib.d.ts: Add pagination or limit results",
+        "node_modules/@types/node/util.d.ts: Add pagination or limit results",
+        "node_modules/@types/node/ts5.6/buffer.buffer.d.ts: Add pagination or limit results",
+        "node_modules/@types/node/fs/promises.d.ts: Add pagination or limit results",
+        "node_modules/istanbul-lib-source-maps/lib/map-store.js: Add pagination or limit results",
+        "node_modules/jwa/index.js: Add pagination or limit results",
+        "node_modules/jest-worker/build/workers/ChildProcessWorker.js: Add pagination or limit results",
+        "node_modules/istanbul-reports/lib/html-spa/assets/bundle.js: Add pagination or limit results",
+        "node_modules/content-disposition/index.js: Add pagination or limit results",
+        "node_modules/@jest/test-sequencer/build/index.js: Add pagination or limit results",
+        "node_modules/@jest/test-sequencer/build/index.d.ts: Add pagination or limit results",
+        "node_modules/@jest/core/build/runJest.js: Add pagination or limit results",
+        "node_modules/@jest/core/build/collectHandles.js: Add pagination or limit results",
+        "node_modules/@jest/core/build/SearchSource.js: Add pagination or limit results",
+        "node_modules/@jest/core/build/TestScheduler.js: Add pagination or limit results",
+        "node_modules/@jest/fake-timers/build/modernFakeTimers.js: Add pagination or limit results",
+        "node_modules/@jest/fake-timers/build/legacyFakeTimers.js: Add pagination or limit results",
+        "node_modules/@jest/reporters/build/CoverageReporter.js: Add pagination or limit results",
+        "node_modules/dotenv/lib/main.js: Add pagination or limit results",
+        "node_modules/validator/validator.min.js: Add pagination or limit results",
+        "node_modules/validator/validator.js: Add pagination or limit results",
+        "node_modules/validator/lib/isTaxID.js: Add pagination or limit results",
+        "node_modules/validator/lib/isURL.js: Add pagination or limit results",
+        "node_modules/validator/lib/isStrongPassword.js: Add pagination or limit results",
+        "node_modules/validator/lib/isMailtoURI.js: Add pagination or limit results",
+        "node_modules/validator/lib/isIdentityCard.js: Add pagination or limit results",
+        "node_modules/validator/lib/isDate.js: Add pagination or limit results",
+        "node_modules/validator/es/lib/isTaxID.js: Add pagination or limit results",
+        "node_modules/validator/es/lib/isURL.js: Add pagination or limit results",
+        "node_modules/validator/es/lib/isStrongPassword.js: Add pagination or limit results",
+        "node_modules/validator/es/lib/isMailtoURI.js: Add pagination or limit results",
+        "node_modules/validator/es/lib/isIdentityCard.js: Add pagination or limit results",
+        "node_modules/validator/es/lib/isDate.js: Add pagination or limit results",
+        "node_modules/@scarf/scarf/report.js: Add pagination or limit results",
+        "node_modules/joi/lib/types/binary.js: Add pagination or limit results",
+        "node_modules/joi/lib/validator.js: Add pagination or limit results",
+        "node_modules/joi/lib/manifest.js: Add pagination or limit results",
+        "node_modules/joi/lib/values.js: Add pagination or limit results",
+        "node_modules/@eslint/eslintrc/lib/config-array/config-array.js: Add pagination or limit results",
+        "node_modules/cjs-module-lexer/dist/lexer.js: Add pagination or limit results",
+        "node_modules/express/lib/response.js: Add pagination or limit results",
+        "node_modules/express/lib/utils.js: Add pagination or limit results",
+        "node_modules/basic-auth/index.js: Add pagination or limit results",
+        "node_modules/gensync/index.js: Add pagination or limit results",
+        "node_modules/@apidevtools/json-schema-ref-parser/lib/parsers/binary.js: Add pagination or limit results",
+        "node_modules/@apidevtools/json-schema-ref-parser/lib/resolvers/http.js: Add pagination or limit results",
+        "node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js: Add pagination or limit results",
+        "node_modules/jest-circus/build/utils.js: Add pagination or limit results",
+        "node_modules/ignore/legacy.js: Add pagination or limit results",
+        "node_modules/ts-jest/dist/legacy/compiler/compiler-utils.js: Add pagination or limit results",
+        "node_modules/ts-jest/dist/legacy/compiler/ts-compiler.js: Add pagination or limit results",
+        "node_modules/argparse/argparse.js: Add pagination or limit results",
+        "node_modules/pure-rand/lib/esm/generator/MersenneTwister.js: Add pagination or limit results",
+        "node_modules/pure-rand/lib/generator/MersenneTwister.js: Add pagination or limit results",
+        "node_modules/source-map-support/browser-source-map-support.js: Add pagination or limit results",
+        "node_modules/typescript/lib/typescript.js: Add pagination or limit results",
+        "node_modules/typescript/lib/_tsc.js: Add pagination or limit results",
+        "node_modules/typescript/lib/_tsserver.js: Add pagination or limit results",
+        "node_modules/typescript/lib/lib.esnext.float16.d.ts: Add pagination or limit results",
+        "node_modules/typescript/lib/lib.es2023.array.d.ts: Add pagination or limit results",
+        "node_modules/jsonwebtoken/sign.js: Add pagination or limit results",
+        "node_modules/jsonwebtoken/verify.js: Add pagination or limit results",
+        "node_modules/iconv-lite/encodings/internal.js: Add pagination or limit results",
+        "node_modules/iconv-lite/encodings/utf7.js: Add pagination or limit results",
+        "node_modules/iconv-lite/encodings/sbcs-codec.js: Add pagination or limit results",
+        "node_modules/iconv-lite/encodings/utf16.js: Add pagination or limit results",
+        "node_modules/iconv-lite/lib/index.js: Add pagination or limit results",
+        "node_modules/@typescript-eslint/typescript-estree/dist/getModifiers.js: Add pagination or limit results",
+        "node_modules/@typescript-eslint/typescript-estree/dist/parseSettings/resolveProjectList.js: Add pagination or limit results",
+        "node_modules/@typescript-eslint/utils/dist/eslint-utils/deepMerge.js: Add pagination or limit results",
+        "node_modules/@typescript-eslint/scope-manager/dist/ScopeManager.js: Add pagination or limit results",
+        "node_modules/@typescript-eslint/eslint-plugin/dist/rules/padding-line-between-statements.js: Add pagination or limit results",
+        "node_modules/@typescript-eslint/eslint-plugin/dist/rules/prefer-readonly.js: Add pagination or limit results",
+        "node_modules/@typescript-eslint/eslint-plugin/dist/rules/unified-signatures.js: Add pagination or limit results",
+        "node_modules/@typescript-eslint/eslint-plugin/dist/rules/member-ordering.js: Add pagination or limit results",
+        "node_modules/qs/test/stringify.js: Add pagination or limit results",
+        "node_modules/qs/test/parse.js: Add pagination or limit results",
+        "node_modules/qs/test/utils.js: Add pagination or limit results",
+        "node_modules/eslint-visitor-keys/lib/index.js: Add pagination or limit results",
+        "node_modules/ts-node/dist/index.js: Add pagination or limit results",
+        "node_modules/ts-node/dist/file-extensions.js: Add pagination or limit results",
+        "node_modules/ts-node/dist/child/argv-payload.js: Add pagination or limit results",
+        "node_modules/@cspotcode/source-map-support/browser-source-map-support.js: Add pagination or limit results",
+        "node_modules/@cspotcode/source-map-support/source-map-support.js: Add pagination or limit results",
+        "node_modules/safer-buffer/tests.js: Add pagination or limit results",
+        "node_modules/jest-resolve/build/nodeModulesPaths.js: Add pagination or limit results",
+        "node_modules/diff/dist/diff.min.js: Add pagination or limit results",
+        "node_modules/diff/dist/diff.js: Add pagination or limit results",
+        "node_modules/diff/lib/patch/merge.js: Add pagination or limit results",
+        "node_modules/diff/lib/patch/create.js: Add pagination or limit results",
+        "node_modules/diff/lib/index.es6.js: Add pagination or limit results",
+        "node_modules/jest-watcher/build/constants.js: Add pagination or limit results",
+        "node_modules/logform/dist/splat.js: Add pagination or limit results",
+        "node_modules/logform/dist/pad-levels.js: Add pagination or limit results",
+        "node_modules/winston-transport/node_modules/readable-stream/lib/_stream_readable.js: Add pagination or limit results",
+        "node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js: Add pagination or limit results",
+        "node_modules/jest-runner/build/index.js: Add pagination or limit results",
+        "node_modules/json-buffer/test/index.js: Add pagination or limit results",
+        "node_modules/json-buffer/index.js: Add pagination or limit results",
+        "node_modules/ecdsa-sig-formatter/src/ecdsa-sig-formatter.js: Add pagination or limit results",
+        "node_modules/swagger-ui-dist/swagger-ui.js: Add pagination or limit results",
+        "node_modules/swagger-ui-dist/swagger-ui-es-bundle-core.js: Add pagination or limit results",
+        "node_modules/swagger-ui-dist/swagger-ui-bundle.js: Add pagination or limit results",
+        "node_modules/swagger-ui-dist/swagger-ui-standalone-preset.js: Add pagination or limit results",
+        "node_modules/swagger-ui-dist/swagger-ui-es-bundle.js: Add pagination or limit results",
+        "node_modules/jest-haste-map/build/crawlers/watchman.js: Add pagination or limit results",
+        "node_modules/jest-haste-map/build/crawlers/node.js: Add pagination or limit results",
+        "node_modules/jest-haste-map/build/worker.js: Add pagination or limit results",
+        "node_modules/jest-haste-map/build/index.js: Add pagination or limit results",
+        "node_modules/jest-haste-map/build/ModuleMap.js: Add pagination or limit results",
+        "node_modules/jest-haste-map/build/HasteFS.js: Add pagination or limit results",
+        "node_modules/z-schema/dist/ZSchema-browser-min.js: Add pagination or limit results",
+        "node_modules/z-schema/dist/ZSchema-browser.js: Add pagination or limit results",
+        "node_modules/z-schema/dist/ZSchema-browser-test.js: Add pagination or limit results",
+        "node_modules/z-schema/node_modules/commander/lib/suggestSimilar.js: Add pagination or limit results",
+        "node_modules/@sinclair/typebox/value/cast.js: Add pagination or limit results",
+        "node_modules/@sinclair/typebox/value/create.js: Add pagination or limit results",
+        "node_modules/@sinclair/typebox/value/hash.js: Add pagination or limit results",
+        "node_modules/@babel/types/lib/utils/inherit.js: Add pagination or limit results",
+        "node_modules/@babel/types/lib/modifications/typescript/removeTypeDuplicates.js: Add pagination or limit results",
+        "node_modules/@babel/types/lib/modifications/flow/removeTypeDuplicates.js: Add pagination or limit results",
+        "node_modules/@babel/core/lib/config/config-chain.js: Add pagination or limit results",
+        "node_modules/@babel/template/lib/literal.js: Add pagination or limit results",
+        "node_modules/@babel/helper-module-transforms/lib/index.js: Add pagination or limit results",
+        "node_modules/@babel/parser/lib/index.js: Add pagination or limit results",
+        "node_modules/@babel/generator/lib/generators/types.js: Add pagination or limit results",
+        "node_modules/@babel/helper-module-imports/lib/import-injector.js: Add pagination or limit results",
+        "node_modules/@babel/helpers/lib/helpers-generated.js: Add pagination or limit results",
+        "node_modules/@babel/helpers/lib/helpers/iterableToArray.js: Add pagination or limit results",
+        "node_modules/@babel/helpers/lib/helpers/unsupportedIterableToArray.js: Add pagination or limit results",
+        "node_modules/@babel/helpers/lib/helpers/applyDecs.js: Add pagination or limit results",
+        "node_modules/compression/index.js: Add pagination or limit results",
+        "node_modules/@supabase/auth-js/dist/module/GoTrueClient.js: Add pagination or limit results",
+        "node_modules/@supabase/auth-js/dist/module/lib/web3/ethereum.js: Add pagination or limit results",
+        "node_modules/@supabase/auth-js/dist/module/lib/helpers.js: Add pagination or limit results",
+        "node_modules/@supabase/auth-js/dist/main/GoTrueClient.js: Add pagination or limit results",
+        "node_modules/@supabase/auth-js/dist/main/lib/web3/ethereum.js: Add pagination or limit results",
+        "node_modules/@supabase/auth-js/dist/main/lib/helpers.js: Add pagination or limit results",
+        "node_modules/@supabase/auth-js/src/lib/helpers.ts: Add pagination or limit results",
+        "node_modules/@supabase/auth-js/src/lib/web3/ethereum.ts: Add pagination or limit results",
+        "node_modules/@supabase/auth-js/src/GoTrueClient.ts: Add pagination or limit results",
+        "node_modules/@supabase/supabase-js/dist/umd/supabase.js: Add pagination or limit results",
+        "node_modules/@supabase/supabase-js/dist/module/SupabaseClient.js: Add pagination or limit results",
+        "node_modules/@supabase/supabase-js/dist/main/SupabaseClient.js: Add pagination or limit results",
+        "node_modules/@supabase/supabase-js/src/SupabaseClient.ts: Add pagination or limit results",
+        "node_modules/@supabase/node-fetch/lib/index.js: Add pagination or limit results",
+        "node_modules/@supabase/node-fetch/lib/index.es.js: Add pagination or limit results",
+        "node_modules/@supabase/storage-js/dist/umd/supabase.js: Add pagination or limit results",
+        "node_modules/@supabase/storage-js/dist/module/packages/StorageFileApi.js: Add pagination or limit results",
+        "node_modules/@supabase/storage-js/dist/main/packages/StorageFileApi.js: Add pagination or limit results",
+        "node_modules/@supabase/storage-js/src/packages/StorageFileApi.ts: Add pagination or limit results",
+        "node_modules/@supabase/postgrest-js/dist/cjs/PostgrestBuilder.js: Add pagination or limit results",
+        "node_modules/@supabase/postgrest-js/dist/cjs/PostgrestBuilder.d.ts: Add pagination or limit results",
+        "node_modules/@supabase/postgrest-js/dist/cjs/PostgrestFilterBuilder.js: Add pagination or limit results",
+        "node_modules/@supabase/postgrest-js/src/PostgrestFilterBuilder.ts: Add pagination or limit results",
+        "node_modules/@supabase/postgrest-js/src/PostgrestBuilder.ts: Add pagination or limit results",
+        "node_modules/convert-source-map/index.js: Add pagination or limit results",
+        "node_modules/uri-js/dist/es5/uri.all.min.js: Add pagination or limit results",
+        "node_modules/uri-js/dist/es5/uri.all.js: Add pagination or limit results",
+        "node_modules/prompts/dist/util/clear.js: Add pagination or limit results",
+        "node_modules/prompts/dist/index.js: Add pagination or limit results",
+        "node_modules/form-data/lib/form_data.js: Add pagination or limit results",
+        "node_modules/yaml/dist/Document-f89a2614.js: Add pagination or limit results",
+        "node_modules/yaml/dist/Schema-807430ba.js: Add pagination or limit results",
+        "node_modules/yaml/browser/dist/Schema-ea978338.js: Add pagination or limit results",
+        "node_modules/yaml/browser/dist/index.js: Add pagination or limit results",
+        "node_modules/yaml/browser/dist/errors-2634d01a.js: Add pagination or limit results",
+        "node_modules/jest-snapshot/build/State.js: Add pagination or limit results",
+        "node_modules/jest-snapshot/build/utils.js: Add pagination or limit results",
+        "node_modules/jest-validate/build/validateCLIOptions.js: Add pagination or limit results",
+        "node_modules/jest-validate/build/errors.js: Add pagination or limit results"
+      ]
+    },
+    {
+      "category": "API",
+      "priority": "medium",
+      "title": "改进 API 设计",
+      "description": "增强 API 的错误处理和输入验证",
+      "actions": [
+        "auth.ts: Add try-catch blocks for better error handling",
+        "health.ts: Add input validation middleware",
+        "index.ts: Add try-catch blocks for better error handling",
+        "index.ts: Add input validation middleware",
+        "letters.ts: Add try-catch blocks for better error handling",
+        "notifications.ts: Add try-catch blocks for better error handling",
+        "orders.ts: Add try-catch blocks for better error handling",
+        "pets.ts: Add try-catch blocks for better error handling",
+        "products.ts: Add try-catch blocks for better error handling",
+        "upload.ts: Add input validation middleware"
+      ]
+    },
+    {
+      "category": "Performance",
+      "priority": "medium",
+      "title": "启用 Gzip 压缩",
+      "description": "在生产环境启用 Gzip 压缩以减少传输大小",
+      "actions": [
+        "在 Express 中添加 compression 中间件"
+      ]
+    },
+    {
+      "category": "Performance",
+      "priority": "low",
+      "title": "添加缓存策略",
+      "description": "为静态资源和 API 响应添加适当的缓存",
+      "actions": [
+        "配置 HTTP 缓存头",
+        "考虑使用 Redis 缓存"
+      ]
+    },
+    {
+      "category": "Monitoring",
+      "priority": "medium",
+      "title": "性能监控",
+      "description": "添加性能监控和分析工具",
+      "actions": [
+        "集成 APM 工具",
+        "添加响应时间监控"
+      ]
+    }
+  ],
+  "summary": {
+    "totalIssues": 7,
+    "highPriority": 2,
+    "mediumPriority": 4,
+    "lowPriority": 1
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/SupportTicketDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Ticket Details",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 189
+        }
+      },
+      {
+        "comment": "",
+        "key": "Created %@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 54
+        }
+      },
+      {
+        "comment": "",
+        "key": "Subject",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "Description",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "Attachments",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 96
+        }
+      },
+      {
+        "comment": "",
+        "key": "Support Team Response",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 120
+        }
+      },
+      {
+        "comment": "",
+        "key": "Update Status",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Response",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 172
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 193
+        }
+      },
+      {
+        "comment": "",
+        "key": "Attachment",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 232
+        }
+      },
+      {
+        "comment": "",
+        "key": "Update Status",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 288
+        }
+      },
+      {
+        "comment": "",
+        "key": "Update Ticket Status",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 267
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 292
+        }
+      },
+      {
+        "comment": "",
+        "key": "Update",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 296
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current Status",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 326
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Response",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 406
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Support Response",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 372
+        }
+      },
+      {
+        "comment": "",
+        "key": "Response",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 379
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter your response to help resolve this ticket...",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 394
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 410
+        }
+      },
+      {
+        "comment": "",
+        "key": "Send",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 414
+        }
+      }
+    ]
+  },
+  "version": 1
+}

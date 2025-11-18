@@ -1,0 +1,136 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/MemorialProductsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Search products...",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 79
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shopping Cart",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 88
+        }
+      },
+      {
+        "comment": "",
+        "key": "Memorial Products",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 49
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 89
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add to Cart Result",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 508
+        }
+      },
+      {
+        "comment": "",
+        "key": "Product Details",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 456
+        }
+      },
+      {
+        "comment": "",
+        "key": "Customization Options",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 391
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter %@",
+        "location": {
+          "startingColumn": 51,
+          "startingLine": 401
+        }
+      },
+      {
+        "comment": "",
+        "key": "Quantity",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 415
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 427
+        }
+      },
+      {
+        "comment": "",
+        "key": "Subtotal",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 442
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 460
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add to Cart",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 473
+        }
+      },
+      {
+        "comment": "",
+        "key": "Buy Now",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 487
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 509
+        }
+      }
+    ]
+  },
+  "version": 1
+}

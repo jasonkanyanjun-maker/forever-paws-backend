@@ -1,0 +1,96 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/SharingCenterView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Sharing Center",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 46
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Content to Share",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 91
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create some holographic projections or add pets to start sharing",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 96
+        }
+      },
+      {
+        "comment": "",
+        "key": "Share Content",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 421
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 425
+        }
+      },
+      {
+        "comment": "",
+        "key": "Preview",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 438
+        }
+      },
+      {
+        "comment": "",
+        "key": "Share Message",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 479
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld/280",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 488
+        }
+      },
+      {
+        "comment": "",
+        "key": "Share to",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 497
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sharing...",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 529
+        }
+      },
+      {
+        "comment": "",
+        "key": "Share Now",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 529
+        }
+      }
+    ]
+  },
+  "version": 1
+}

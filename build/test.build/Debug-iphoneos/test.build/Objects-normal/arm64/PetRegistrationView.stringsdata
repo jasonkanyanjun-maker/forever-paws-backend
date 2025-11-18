@@ -1,0 +1,152 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/PetRegistrationView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Alert",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 207
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pet Registration",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 190
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tell us about your pet",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "This information helps us create personalized content for your beloved companion",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 62
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pet Photo",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tap to add photo",
+        "location": {
+          "startingColumn": 50,
+          "startingLine": 94
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pet Name *",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 107
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter your pet's name",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pet Type *",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 116
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pet Type",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 119
+        }
+      },
+      {
+        "comment": "",
+        "key": "Breed",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter breed (optional)",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 132
+        }
+      },
+      {
+        "comment": "",
+        "key": "Age",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 138
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter age (optional)",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Description",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 148
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tell us about your pet's personality (optional)",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 151
+        }
+      },
+      {
+        "comment": "",
+        "key": "Continue to App",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 165
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 208
+        }
+      }
+    ]
+  },
+  "version": 1
+}

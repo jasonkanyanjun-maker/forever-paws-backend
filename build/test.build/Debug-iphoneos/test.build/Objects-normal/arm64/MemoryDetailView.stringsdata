@@ -1,0 +1,120 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/MemoryDetailView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Memory Detail",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 48
+        }
+      },
+      {
+        "comment": "",
+        "key": "Letter",
+        "location": {
+          "startingColumn": 55,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "Video",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your Letter",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reply from %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 140
+        }
+      },
+      {
+        "comment": "",
+        "key": "Video Information",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 179
+        }
+      },
+      {
+        "comment": "",
+        "key": "Status:",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 189
+        }
+      },
+      {
+        "comment": "",
+        "key": "Progress:",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 209
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 216
+        }
+      },
+      {
+        "comment": "",
+        "key": "Completed:",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 227
+        }
+      },
+      {
+        "comment": "",
+        "key": "Generated Video",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 257
+        }
+      },
+      {
+        "comment": "",
+        "key": "Original Image",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 283
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pet Information",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 318
+        }
+      }
+    ]
+  },
+  "version": 1
+}

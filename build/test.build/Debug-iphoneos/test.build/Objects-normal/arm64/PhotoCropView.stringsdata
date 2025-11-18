@@ -1,0 +1,48 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/PhotoCropView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Crop Photo",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 113
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pinch to zoom, drag to move",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 84
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reset",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 89
+        }
+      },
+      {
+        "comment": "",
+        "key": "Crop",
+        "location": {
+          "startingColumn": 40,
+          "startingLine": 101
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 117
+        }
+      }
+    ]
+  },
+  "version": 1
+}

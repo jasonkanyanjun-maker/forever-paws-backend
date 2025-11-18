@@ -1,0 +1,48 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/NotificationView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Notifications",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Notifications",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "You're all caught up! New notifications will appear here.",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 47
+        }
+      },
+      {
+        "comment": "",
+        "key": "Mark All Read",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 52
+        }
+      }
+    ]
+  },
+  "version": 1
+}

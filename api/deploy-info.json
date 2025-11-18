@@ -1,0 +1,16 @@
+{
+  "deploymentTime": "2025-11-18T03:38:10Z",
+  "gitCommit": "b2e9093",
+  "nodeVersion": "v24.11.1",
+  "npmVersion": "11.6.2",
+  "environment": "production",
+  "service": "forever-paws-backend",
+  "healthEndpoint": "/api/health",
+  "features": [
+    "用户注册",
+    "用户登录", 
+    "健康检查",
+    "速率限制",
+    "CORS 支持"
+  ]
+}

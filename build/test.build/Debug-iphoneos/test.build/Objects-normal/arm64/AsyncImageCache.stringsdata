@@ -1,0 +1,16 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Utils/AsyncImageCache.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Load Failed",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 86
+        }
+      }
+    ]
+  },
+  "version": 1
+}

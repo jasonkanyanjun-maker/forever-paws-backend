@@ -1,0 +1,56 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/SettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Settings",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 174
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sharing",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "Account & Security",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 78
+        }
+      },
+      {
+        "comment": "",
+        "key": "Preferences",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "Support",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 129
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign Out",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 168
+        }
+      }
+    ]
+  },
+  "version": 1
+}

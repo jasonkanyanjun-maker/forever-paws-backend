@@ -1,0 +1,216 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/EditPetView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Error",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 109
+        }
+      },
+      {
+        "comment": "",
+        "key": "Edit Pet",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 72
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 80
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 110
+        }
+      },
+      {
+        "comment": "",
+        "key": "Updating Pet...",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 123
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pet Photo",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 137
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tap to add photo",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 171
+        }
+      },
+      {
+        "comment": "",
+        "key": "Basic Information",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 184
+        }
+      },
+      {
+        "comment": "",
+        "key": "Name *",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 193
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter pet's name",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 198
+        }
+      },
+      {
+        "comment": "",
+        "key": "Type",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 204
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pet Type",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 209
+        }
+      },
+      {
+        "comment": "",
+        "key": "Breed",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 219
+        }
+      },
+      {
+        "comment": "",
+        "key": "Enter breed (optional)",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 224
+        }
+      },
+      {
+        "comment": "",
+        "key": "Details",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 236
+        }
+      },
+      {
+        "comment": "",
+        "key": "Age",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 245
+        }
+      },
+      {
+        "comment": "",
+        "key": "e.g., 3 years old",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 250
+        }
+      },
+      {
+        "comment": "",
+        "key": "Birth Date",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 256
+        }
+      },
+      {
+        "comment": "",
+        "key": "Birth Date",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 261
+        }
+      },
+      {
+        "comment": "",
+        "key": "Description",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 267
+        }
+      },
+      {
+        "comment": "",
+        "key": "Tell us about your pet...",
+        "location": {
+          "startingColumn": 31,
+          "startingLine": 272
+        }
+      },
+      {
+        "comment": "",
+        "key": "Memorial Information",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 285
+        }
+      },
+      {
+        "comment": "",
+        "key": "This is a memorial pet",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 292
+        }
+      },
+      {
+        "comment": "",
+        "key": "Memorial Date",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 298
+        }
+      },
+      {
+        "comment": "",
+        "key": "Memorial Date",
+        "location": {
+          "startingColumn": 36,
+          "startingLine": 303
+        }
+      }
+    ]
+  },
+  "version": 1
+}

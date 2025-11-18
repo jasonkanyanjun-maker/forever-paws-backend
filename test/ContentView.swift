@@ -9,53 +9,41 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
+    @StateObject private var supabaseService = SupabaseService.shared
+    @State private var currentUser: UserProfile?
     @Environment(\.modelContext) private var modelContext
-    @Query private var items: [Item]
-
+    
     var body: some View {
-        NavigationSplitView {
-            List {
-                ForEach(items) { item in
-                    NavigationLink {
-                        Text("Item at \(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))")
-                    } label: {
-                        Text(item.timestamp, format: Date.FormatStyle(date: .numeric, time: .standard))
-                    }
-                }
-                .onDelete(perform: deleteItems)
+        Group {
+            if !supabaseService.isAuthenticated {
+                AuthenticationView(isAuthenticated: $supabaseService.isAuthenticated, currentUser: $currentUser)
+            } else {
+                ForeverPawsMainView()
             }
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    EditButton()
-                }
-                ToolbarItem {
-                    Button(action: addItem) {
-                        Label("Add Item", systemImage: "plus")
-                    }
-                }
+        }
+        .onAppear {
+            checkAutoLoginOnAppear()
+            // 设置DataSyncService的ModelContext
+            DataSyncService.shared.setModelContext(modelContext)
+            print("✅ DataSyncService ModelContext initialized")
+        }
+        .onReceive(NotificationCenter.default.publisher(for: NSNotification.Name("UserDataNeedsRefresh"))) { _ in
+            // 当用户数据需要刷新时，重新检查认证状态
+            Task {
+                await supabaseService.checkAutoLogin()
             }
-        } detail: {
-            Text("Select an item")
         }
     }
-
-    private func addItem() {
-        withAnimation {
-            let newItem = Item(timestamp: Date())
-            modelContext.insert(newItem)
-        }
-    }
-
-    private func deleteItems(offsets: IndexSet) {
-        withAnimation {
-            for index in offsets {
-                modelContext.delete(items[index])
-            }
+    
+    // MARK: - 应用启动时检查自动登录
+    private func checkAutoLoginOnAppear() {
+        Task {
+            await supabaseService.checkAutoLogin()
         }
     }
 }
 
 #Preview {
     ContentView()
-        .modelContainer(for: Item.self, inMemory: true)
+        .modelContainer(for: VideoGeneration.self, inMemory: true)
 }

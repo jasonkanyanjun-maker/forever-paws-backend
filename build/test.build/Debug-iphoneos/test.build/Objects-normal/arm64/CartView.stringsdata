@@ -1,0 +1,296 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/CartView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Checkout Result",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 51
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shopping Cart",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 32
+        }
+      },
+      {
+        "comment": "",
+        "key": "Close",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 36
+        }
+      },
+      {
+        "comment": "",
+        "key": "Clear",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 43
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 52
+        }
+      },
+      {
+        "comment": "",
+        "key": "Order Number: %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 61
+        }
+      },
+      {
+        "comment": "",
+        "key": "Total Amount: $%@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 62
+        }
+      },
+      {
+        "comment": "",
+        "key": "Your cart is empty",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start shopping for keepsakes",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 87
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start Shopping",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 95
+        }
+      },
+      {
+        "comment": "",
+        "key": "Total %lld items",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 141
+        }
+      },
+      {
+        "comment": "",
+        "key": "Total: %@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "Processing...",
+        "location": {
+          "startingColumn": 46,
+          "startingLine": 172
+        }
+      },
+      {
+        "comment": "",
+        "key": "Checkout Now",
+        "location": {
+          "startingColumn": 64,
+          "startingLine": 172
+        }
+      },
+      {
+        "comment": "",
+        "key": "Order Result",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 431
+        }
+      },
+      {
+        "comment": "",
+        "key": "Checkout",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 421
+        }
+      },
+      {
+        "comment": "",
+        "key": "Order Summary",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 285
+        }
+      },
+      {
+        "comment": "",
+        "key": "Quantity: %lld",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 306
+        }
+      },
+      {
+        "comment": "",
+        "key": "Total",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 322
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shipping Information",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 338
+        }
+      },
+      {
+        "comment": "",
+        "key": "Full Name",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 343
+        }
+      },
+      {
+        "comment": "",
+        "key": "Email Address",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 346
+        }
+      },
+      {
+        "comment": "",
+        "key": "Phone Number",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 350
+        }
+      },
+      {
+        "comment": "",
+        "key": "WhatsApp Number (Optional, for custom items communication)",
+        "location": {
+          "startingColumn": 39,
+          "startingLine": 354
+        }
+      },
+      {
+        "comment": "",
+        "key": "Shipping Address",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 360
+        }
+      },
+      {
+        "comment": "",
+        "key": "Street Address",
+        "location": {
+          "startingColumn": 43,
+          "startingLine": 364
+        }
+      },
+      {
+        "comment": "",
+        "key": "City",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 368
+        }
+      },
+      {
+        "comment": "",
+        "key": "State",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 371
+        }
+      },
+      {
+        "comment": "",
+        "key": "ZIP Code",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 377
+        }
+      },
+      {
+        "comment": "",
+        "key": "Country",
+        "location": {
+          "startingColumn": 47,
+          "startingLine": 382
+        }
+      },
+      {
+        "comment": "",
+        "key": "Processing...",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 400
+        }
+      },
+      {
+        "comment": "",
+        "key": "Place Order",
+        "location": {
+          "startingColumn": 67,
+          "startingLine": 400
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 425
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 432
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@: %@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 544
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 581
+        }
+      }
+    ]
+  },
+  "version": 1
+}

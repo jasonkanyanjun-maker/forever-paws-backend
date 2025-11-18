@@ -1,0 +1,307 @@
+{
+  "timestamp": "2025-10-19T12:59:01.646Z",
+  "summary": {
+    "total": 25,
+    "completed": 24,
+    "failed": 0,
+    "warnings": 1,
+    "critical": 0
+  },
+  "categories": [
+    {
+      "name": "项目配置",
+      "passed": 3,
+      "failed": 0,
+      "warnings": 0,
+      "total": 3,
+      "checks": [
+        {
+          "name": "package.json 存在且有效",
+          "status": "passed",
+          "message": "",
+          "priority": "critical",
+          "required": true,
+          "timestamp": "2025-10-19T12:58:54.144Z"
+        },
+        {
+          "name": "Railway 配置文件",
+          "status": "passed",
+          "message": "",
+          "priority": "high",
+          "required": true,
+          "timestamp": "2025-10-19T12:58:54.145Z"
+        },
+        {
+          "name": "TypeScript 配置",
+          "status": "passed",
+          "message": "",
+          "priority": "medium",
+          "required": false,
+          "timestamp": "2025-10-19T12:58:54.145Z"
+        }
+      ]
+    },
+    {
+      "name": "环境配置",
+      "passed": 3,
+      "failed": 0,
+      "warnings": 0,
+      "total": 3,
+      "checks": [
+        {
+          "name": "生产环境变量文件",
+          "status": "passed",
+          "message": "",
+          "priority": "critical",
+          "required": true,
+          "timestamp": "2025-10-19T12:58:54.145Z"
+        },
+        {
+          "name": "环境变量模板",
+          "status": "passed",
+          "message": "",
+          "priority": "medium",
+          "required": false,
+          "timestamp": "2025-10-19T12:58:54.145Z"
+        },
+        {
+          "name": "Git 忽略配置",
+          "status": "passed",
+          "message": "",
+          "priority": "critical",
+          "required": true,
+          "timestamp": "2025-10-19T12:58:54.145Z"
+        }
+      ]
+    },
+    {
+      "name": "代码质量",
+      "passed": 1,
+      "failed": 0,
+      "warnings": 1,
+      "total": 2,
+      "checks": [
+        {
+          "name": "TypeScript 编译",
+          "status": "passed",
+          "message": "",
+          "priority": "high",
+          "required": true,
+          "timestamp": "2025-10-19T12:58:55.641Z"
+        },
+        {
+          "name": "ESLint 检查",
+          "status": "failed",
+          "message": "ESLint 检查失败",
+          "priority": "medium",
+          "required": false,
+          "timestamp": "2025-10-19T12:58:58.528Z"
+        }
+      ]
+    },
+    {
+      "name": "依赖管理",
+      "passed": 3,
+      "failed": 0,
+      "warnings": 0,
+      "total": 3,
+      "checks": [
+        {
+          "name": "node_modules 存在",
+          "status": "passed",
+          "message": "",
+          "priority": "critical",
+          "required": true,
+          "timestamp": "2025-10-19T12:58:58.528Z"
+        },
+        {
+          "name": "package-lock.json 存在",
+          "status": "passed",
+          "message": "",
+          "priority": "medium",
+          "required": false,
+          "timestamp": "2025-10-19T12:58:58.528Z"
+        },
+        {
+          "name": "安全漏洞检查",
+          "status": "passed",
+          "message": "",
+          "priority": "high",
+          "required": true,
+          "timestamp": "2025-10-19T12:59:01.645Z"
+        }
+      ]
+    },
+    {
+      "name": "API 配置",
+      "passed": 3,
+      "failed": 0,
+      "warnings": 0,
+      "total": 3,
+      "checks": [
+        {
+          "name": "健康检查端点",
+          "status": "passed",
+          "message": "",
+          "priority": "critical",
+          "required": true,
+          "timestamp": "2025-10-19T12:59:01.645Z"
+        },
+        {
+          "name": "主路由配置",
+          "status": "passed",
+          "message": "",
+          "priority": "critical",
+          "required": true,
+          "timestamp": "2025-10-19T12:59:01.645Z"
+        },
+        {
+          "name": "中间件配置",
+          "status": "passed",
+          "message": "",
+          "priority": "medium",
+          "required": false,
+          "timestamp": "2025-10-19T12:59:01.645Z"
+        }
+      ]
+    },
+    {
+      "name": "数据库配置",
+      "passed": 2,
+      "failed": 0,
+      "warnings": 0,
+      "total": 2,
+      "checks": [
+        {
+          "name": "Supabase 迁移文件",
+          "status": "passed",
+          "message": "发现 24 个迁移文件",
+          "priority": "high",
+          "required": true,
+          "timestamp": "2025-10-19T12:59:01.646Z"
+        },
+        {
+          "name": "RLS 策略文件",
+          "status": "passed",
+          "message": "发现 16 个 RLS 文件",
+          "priority": "critical",
+          "required": true,
+          "timestamp": "2025-10-19T12:59:01.646Z"
+        }
+      ]
+    },
+    {
+      "name": "构建部署",
+      "passed": 3,
+      "failed": 0,
+      "warnings": 0,
+      "total": 3,
+      "checks": [
+        {
+          "name": "构建脚本存在",
+          "status": "passed",
+          "message": "",
+          "priority": "high",
+          "required": true,
+          "timestamp": "2025-10-19T12:59:01.646Z"
+        },
+        {
+          "name": "启动脚本存在",
+          "status": "passed",
+          "message": "",
+          "priority": "critical",
+          "required": true,
+          "timestamp": "2025-10-19T12:59:01.646Z"
+        },
+        {
+          "name": "生产检查脚本",
+          "status": "passed",
+          "message": "",
+          "priority": "medium",
+          "required": false,
+          "timestamp": "2025-10-19T12:59:01.646Z"
+        }
+      ]
+    },
+    {
+      "name": "安全配置",
+      "passed": 2,
+      "failed": 0,
+      "warnings": 0,
+      "total": 2,
+      "checks": [
+        {
+          "name": "敏感文件保护",
+          "status": "passed",
+          "message": "",
+          "priority": "critical",
+          "required": true,
+          "timestamp": "2025-10-19T12:59:01.646Z"
+        },
+        {
+          "name": "生产环境配置",
+          "status": "passed",
+          "message": "",
+          "priority": "critical",
+          "required": true,
+          "timestamp": "2025-10-19T12:59:01.646Z"
+        }
+      ]
+    },
+    {
+      "name": "监控日志",
+      "passed": 2,
+      "failed": 0,
+      "warnings": 0,
+      "total": 2,
+      "checks": [
+        {
+          "name": "日志目录配置",
+          "status": "passed",
+          "message": "",
+          "priority": "medium",
+          "required": false,
+          "timestamp": "2025-10-19T12:59:01.646Z"
+        },
+        {
+          "name": "监控配置脚本",
+          "status": "passed",
+          "message": "",
+          "priority": "medium",
+          "required": false,
+          "timestamp": "2025-10-19T12:59:01.646Z"
+        }
+      ]
+    },
+    {
+      "name": "文档说明",
+      "passed": 2,
+      "failed": 0,
+      "warnings": 0,
+      "total": 2,
+      "checks": [
+        {
+          "name": "README 文件",
+          "status": "passed",
+          "message": "",
+          "priority": "low",
+          "required": false,
+          "timestamp": "2025-10-19T12:59:01.646Z"
+        },
+        {
+          "name": "部署文档",
+          "status": "passed",
+          "message": "",
+          "priority": "low",
+          "required": false,
+          "timestamp": "2025-10-19T12:59:01.646Z"
+        }
+      ]
+    }
+  ],
+  "readiness": {
+    "level": "READY",
+    "score": 96,
+    "message": "已准备好部署到生产环境"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/PhotoCropEditView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Edit Crop",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 124
+        }
+      },
+      {
+        "comment": "",
+        "key": "Loading photo...",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Pinch to zoom, drag to move",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "Reset",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 82
+        }
+      },
+      {
+        "comment": "",
+        "key": "Save Crop",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 93
+        }
+      },
+      {
+        "comment": "",
+        "key": "Failed to load photo",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 111
+        }
+      },
+      {
+        "comment": "",
+        "key": "Retry",
+        "location": {
+          "startingColumn": 32,
+          "startingLine": 114
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 128
+        }
+      }
+    ]
+  },
+  "version": 1
+}

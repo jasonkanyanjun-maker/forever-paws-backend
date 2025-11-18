@@ -1,0 +1,104 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/VideoGenerationView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Error",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 215
+        }
+      },
+      {
+        "comment": "",
+        "key": "AI Video Generation",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 57
+        }
+      },
+      {
+        "comment": "",
+        "key": "Transform your images into amazing AI videos",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 68
+        }
+      },
+      {
+        "comment": "",
+        "key": "Features",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 145
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 216
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld%%",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 545
+        }
+      },
+      {
+        "comment": "",
+        "key": "原始图片",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 600
+        }
+      },
+      {
+        "comment": "",
+        "key": "AI生成视频",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 641
+        }
+      },
+      {
+        "comment": "",
+        "key": "生成失败",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 669
+        }
+      },
+      {
+        "comment": "",
+        "key": "生成新视频",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 697
+        }
+      },
+      {
+        "comment": "",
+        "key": "重试",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 720
+        }
+      },
+      {
+        "comment": "",
+        "key": "新建",
+        "location": {
+          "startingColumn": 42,
+          "startingLine": 741
+        }
+      }
+    ]
+  },
+  "version": 1
+}

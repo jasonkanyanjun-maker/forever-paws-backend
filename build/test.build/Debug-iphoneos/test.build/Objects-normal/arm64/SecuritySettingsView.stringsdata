@@ -1,0 +1,96 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/SecuritySettingsView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Security Settings",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 35
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security Settings",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 44
+        }
+      },
+      {
+        "comment": "",
+        "key": "Change Password",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 17
+        }
+      },
+      {
+        "comment": "",
+        "key": "Security Actions",
+        "location": {
+          "startingColumn": 25,
+          "startingLine": 23
+        }
+      },
+      {
+        "comment": "",
+        "key": "Current Password",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 18
+        }
+      },
+      {
+        "comment": "",
+        "key": "New Password",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "Confirm New Password",
+        "location": {
+          "startingColumn": 33,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "Update Password",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 24
+        }
+      },
+      {
+        "comment": "",
+        "key": "Sign Out All Devices",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 39
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 45
+        }
+      }
+    ]
+  },
+  "version": 1
+}

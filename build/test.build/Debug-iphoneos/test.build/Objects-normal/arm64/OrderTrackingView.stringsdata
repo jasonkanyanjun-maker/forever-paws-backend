@@ -1,0 +1,136 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/OrderTrackingView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "订单追踪",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 65
+        }
+      },
+      {
+        "comment": "",
+        "key": "搜索订单号、姓名或快递单号",
+        "location": {
+          "startingColumn": 52,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "加载订单中...",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 53
+        }
+      },
+      {
+        "comment": "",
+        "key": "关闭",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 70
+        }
+      },
+      {
+        "comment": "",
+        "key": "暂无订单",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 99
+        }
+      },
+      {
+        "comment": "",
+        "key": "您还没有任何订单\n快去纪念品商店看看吧",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 104
+        }
+      },
+      {
+        "comment": "",
+        "key": "去购物",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 115
+        }
+      },
+      {
+        "comment": "",
+        "key": "订单号：%@",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 165
+        }
+      },
+      {
+        "comment": "",
+        "key": "商品信息",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 202
+        }
+      },
+      {
+        "comment": "",
+        "key": "等%lld件商品",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 222
+        }
+      },
+      {
+        "comment": "",
+        "key": "×%lld",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 215
+        }
+      },
+      {
+        "comment": "",
+        "key": "物流信息",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 231
+        }
+      },
+      {
+        "comment": "",
+        "key": "快递单号：%@",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 237
+        }
+      },
+      {
+        "comment": "",
+        "key": "预计送达：%@",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 244
+        }
+      },
+      {
+        "comment": "",
+        "key": "取消订单",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 255
+        }
+      },
+      {
+        "comment": "",
+        "key": "查看详情",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 270
+        }
+      }
+    ]
+  },
+  "version": 1
+}

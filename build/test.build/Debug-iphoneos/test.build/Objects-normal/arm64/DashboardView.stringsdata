@@ -1,0 +1,200 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/DashboardView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Shopping Cart",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 196
+        }
+      },
+      {
+        "comment": "",
+        "key": "%lld",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 102
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 197
+        }
+      },
+      {
+        "comment": "",
+        "key": "Loading...",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 300
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add your pet's photo",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 332
+        }
+      },
+      {
+        "comment": "",
+        "key": "Welcome to Forever Paws",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 350
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create lasting memories of your beloved companions",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 355
+        }
+      },
+      {
+        "comment": "",
+        "key": "Features",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 366
+        }
+      },
+      {
+        "comment": "",
+        "key": "My Pets",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 420
+        }
+      },
+      {
+        "comment": "",
+        "key": "View All",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 428
+        }
+      },
+      {
+        "comment": "",
+        "key": "Welcome to Forever Paws!",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 453
+        }
+      },
+      {
+        "comment": "",
+        "key": "Start by adding your beloved pet to create lasting memories together",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 458
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add Your First Pet",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 469
+        }
+      },
+      {
+        "comment": "",
+        "key": "What you can do:",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 488
+        }
+      },
+      {
+        "comment": "",
+        "key": "Upload Photos",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 499
+        }
+      },
+      {
+        "comment": "",
+        "key": "Write Letters",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 509
+        }
+      },
+      {
+        "comment": "",
+        "key": "Create Videos",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 519
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add More",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 599
+        }
+      },
+      {
+        "comment": "",
+        "key": "Custom Keepsake",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 624
+        }
+      },
+      {
+        "comment": "",
+        "key": "View More",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 632
+        }
+      },
+      {
+        "comment": "",
+        "key": "No products available",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 650
+        }
+      },
+      {
+        "comment": "",
+        "key": "Recent Activity",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 679
+        }
+      },
+      {
+        "comment": "",
+        "key": "View All",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 686
+        }
+      },
+      {
+        "comment": "",
+        "key": "No recent activity",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 706
+        }
+      }
+    ]
+  },
+  "version": 1
+}

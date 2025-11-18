@@ -1,0 +1,40 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/HotProductCard.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Add to Cart Result",
+        "location": {
+          "startingColumn": 16,
+          "startingLine": 107
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add to Cart",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 67
+        }
+      },
+      {
+        "comment": "",
+        "key": "Buy Now",
+        "location": {
+          "startingColumn": 34,
+          "startingLine": 83
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 108
+        }
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,120 @@
+{
+  "source": "/Users/junlish/Desktop/test/test/Views/PetPhotoManagementView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%@'s Photos",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 37
+        }
+      },
+      {
+        "comment": "",
+        "key": "Photo Management",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 76
+        }
+      },
+      {
+        "comment": "",
+        "key": "Done",
+        "location": {
+          "startingColumn": 28,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "OK",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 77
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add New Photo",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 100
+        }
+      },
+      {
+        "comment": "",
+        "key": "Upload a new photo of %@",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 104
+        }
+      },
+      {
+        "comment": "",
+        "key": "No Photos Yet",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 160
+        }
+      },
+      {
+        "comment": "",
+        "key": "Add photos of %@ to create a beautiful gallery and set a primary photo for the main display.",
+        "location": {
+          "startingColumn": 18,
+          "startingLine": 165
+        }
+      },
+      {
+        "comment": "",
+        "key": "Photo Actions",
+        "location": {
+          "startingColumn": 29,
+          "startingLine": 352
+        }
+      },
+      {
+        "comment": "",
+        "key": "PRIMARY",
+        "location": {
+          "startingColumn": 30,
+          "startingLine": 317
+        }
+      },
+      {
+        "comment": "",
+        "key": "Set as Primary",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 354
+        }
+      },
+      {
+        "comment": "",
+        "key": "Edit Crop",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 359
+        }
+      },
+      {
+        "comment": "",
+        "key": "Delete",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 363
+        }
+      },
+      {
+        "comment": "",
+        "key": "Cancel",
+        "location": {
+          "startingColumn": 20,
+          "startingLine": 367
+        }
+      }
+    ]
+  },
+  "version": 1
+}
