@@ -3,8 +3,8 @@ import logger from './utils/logger';
 
 const PORT = parseInt(process.env.PORT || '3001', 10);
 
-// 启动服务器 - 明确绑定到所有接口以支持 iOS 模拟器
-const server = app.listen(PORT, '0.0.0.0', () => {
+// 启动服务器 - 使用IPv6双栈绑定以支持Render平台
+const server = app.listen(PORT, '::', () => {
   // 获取本机 IP 地址
   const os = require('os');
   const networkInterfaces = os.networkInterfaces();
